@@ -20,7 +20,7 @@ Usage: swiftplayground [options]
     -n, --name [filename]  Name of the swift playground [SwiftPlayground]
 
 Example
-     $ playground -n FILENAME
+     $ swiftplayground -n FILENAME
 
 Creates a new playground named FILENAME.playground in the current directory
 ```
