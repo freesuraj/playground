@@ -25,9 +25,9 @@ Example
 Creates a new playground named FILENAME.playground in the current directory
 ```
 ### Screenshots
-![command_line](http://i.share.pho.to/df2b06c6_o.png)
+![command_line](https://github.com/freesuraj/playground/blob/master/assets/screenshots/Screenshot%202016-01-17%2023.35.55.png?raw=true)
 
-![swift_pg](http://i.share.pho.to/d70c2642_l.png)
+![swift_pg](https://github.com/freesuraj/playground/blob/master/assets/screenshots/Screenshot%202016-01-17%2023.36.17.png?raw=true)
 
 ### TODO
 - Automatically create playground from a swift markdown language
