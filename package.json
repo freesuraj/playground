@@ -2,10 +2,8 @@
   "name": "playground",
   "version": "1.0.0",
   "description": "a tool to quickly create swift playground project from command line",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Suraj Pathak",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://www.github.com/freesuraj/playground"
@@ -21,8 +19,17 @@
     "node",
     "playground"
   ],
-  "author": "Suraj Pathak",
-  "license": "ISC",
+  "main": "./bin/playground",
+  "bin": {
+    "playground": "./bin/playground"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "dependencies": {
     "commander": "^2.9.0"
   }

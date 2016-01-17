@@ -1,3 +1,25 @@
 #!/usr/bin/env node
 
-console.log("Hello World");
+var pkg     = require('../package');
+var program = require('commander');
+var playground = require('../lib/playground')
+
+program
+  .version("playground verson " + pkg.version)
+  .option('-n, --name [filename]', 'Name of the swift playground [SwiftPlayground]','');
+
+program.on('--help', function () {
+  console.log('Example');
+  console.log('     $ playground -n FILENAME');
+  console.log('');
+  console.log('Creates a new playground named FILENAME.playground in the current directory');
+  console.log('');
+});
+program.parse(process.argv);
+
+if (program.name) {
+  playground.createPlayground(program.name);
+} else {
+  program.outputHelp();
+  process.exit(1);
+}
