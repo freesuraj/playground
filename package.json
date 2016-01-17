@@ -1,5 +1,5 @@
 {
-  "name": "playground",
+  "name": "swiftPlayground",
   "version": "1.0.0",
   "description": "a tool to quickly create swift playground project from command line",
   "author": "Suraj Pathak",
@@ -15,13 +15,13 @@
     "swift",
     "node",
     "swift",
-    "playground",
+    "swiftplayground",
     "node",
     "playground"
   ],
-  "main": "./bin/playground",
+  "main": "./bin/swiftplayground",
   "bin": {
-    "playground": "./bin/playground"
+    "swiftplayground": "./bin/swiftplayground"
   },
   "preferGlobal": true,
   "scripts": {
@@ -32,5 +32,6 @@
   },
   "dependencies": {
     "commander": "^2.9.0"
-  }
+  },
+  "devDependencies": {}
 }
