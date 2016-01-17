@@ -25,11 +25,11 @@ Example
 Creates a new playground named FILENAME.playground in the current directory
 ```
 ### Screenshots
-![command_line](http://s29.postimg.org/iao1sbfr9/Screenshot_2016_01_17_23_35_55.png)
-![swift_pg](http://s29.postimg.org/d0j310vie/Screenshot_2016_01_17_23_36_17.jpg)
+![command_line](http://i.share.pho.to/df2b06c6_o.png)
+
+![swift_pg](http://i.share.pho.to/d70c2642_l.png)
 
 ### TODO
-
 - Automatically create playground from a swift markdown language
 
 ### License
