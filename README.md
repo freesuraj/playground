@@ -25,8 +25,8 @@ Example
 Creates a new playground named FILENAME.playground in the current directory
 ```
 ### Screenshots
-![command line](http://s29.postimg.org/iao1sbfr9/Screenshot_2016_01_17_23_35_55.png)
-![swift pg](http://s29.postimg.org/d0j310vie/Screenshot_2016_01_17_23_36_17.jpg)
+![command_line](http://s29.postimg.org/iao1sbfr9/Screenshot_2016_01_17_23_35_55.png)
+![swift_pg](http://s29.postimg.org/d0j310vie/Screenshot_2016_01_17_23_36_17.jpg)
 
 ### TODO
 
