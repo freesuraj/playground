@@ -1,3 +1,4 @@
+![build-status][https://travis-ci.org/freesuraj/playground.svg?branch=master]
 ### playground
 A command line application to quickly create and launch a Xcode playground.
 
