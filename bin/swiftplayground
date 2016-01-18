@@ -5,7 +5,7 @@ var program = require('commander');
 var playground = require('../lib/playground')
 
 program
-  .version("playground verson " + pkg.version)
+  .version("swiftplayground version: " + pkg.version)
   .option('-n, --name [filename]', 'Name of the swift playground [SwiftPlayground]','');
 
 program.on('--help', function () {
