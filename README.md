@@ -1,4 +1,9 @@
-![build-status][https://travis-ci.org/freesuraj/playground.svg?branch=master]
+[![NPM version][npm-image]][npm-url]
+![build-status](https://travis-ci.org/freesuraj/playground.svg?branch=master)
+[![Twitter](https://img.shields.io/badge/twitter-@iosCook-blue.svg?style=flat)](http://twitter.com/iosCook)
+[![Dependency Status](https://david-dm.org/request/request.svg)](https://david-dm.org/request/request)
+[![npm](https://img.shields.io/npm/dt/swiftplayground.svg)](https://www.npmjs.com/package/swiftplayground)
+
 ### playground
 A command line application to quickly create and launch a Xcode playground.
 
@@ -36,3 +41,6 @@ Creates a new playground named FILENAME.playground in the current directory
 ### License
 The project is using [MIT][href] License.
 [href]:https://github.com/freesuraj/playground/blob/master/LICENSE.md
+
+[npm-url]: https://npmjs.org/package/swiftplayground
+[npm-image]: https://img.shields.io/npm/v/swiftplayground.svg
