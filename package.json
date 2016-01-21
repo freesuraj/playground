@@ -1,6 +1,6 @@
 {
   "name": "swiftplayground",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a tool to quickly create swift playground project from command line",
   "author": "Suraj Pathak",
   "license": "MIT",
