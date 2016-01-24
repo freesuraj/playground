@@ -1,6 +1,6 @@
 {
   "name": "swiftplayground",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a tool to quickly create swift playground project from command line",
   "author": "Suraj Pathak",
   "license": "MIT",
@@ -24,8 +24,11 @@
     "swiftplayground": "./bin/swiftplayground"
   },
   "preferGlobal": true,
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -33,5 +36,8 @@
   "dependencies": {
     "commander": "^2.9.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "~2.3.4"
+  }
 }
